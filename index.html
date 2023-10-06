@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- reset page style -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <title>Alcool ou Gasolina</title>
+  </head>
+  <body>
+    <!-- formula
+alcool/gasolina = 0.70 = se o resultado for menor ou igual a 0.70, recomendavel abastecer com alcool -->
+    <div class="container">
+      <h1>Alcool ou Gasolina</h1>
+      <form class="form">
+        <p>
+          <label for="alcool">Alcool:</label>
+        </p>
+        <input id="alcool" type="number" placeholder="2.90" value="2.90" />
+        <p>
+          <label for="gasolina">Gasolina:</label>
+        </p>
+        <input id="gasolina" type="number" placeholder="4.90" value="4.90" />
+        <p>
+          <input id="btn-calc" type="button" value="Calcular" />
+        </p>
+      </form>
+      <div class="res">resultado</div>
+    </div>
+    <div class="formula">
+      <div class="close">X</div>
+      <h1>formula</h1>
+
+      <p>
+        alcool/gasolina = 0.70 = se o resultado for menor ou igual a 0.70,
+        recomendavel abastecer com alcool
+      </p>
+    </div>
+    <script type="module" src="scripts/script.js"></script>
+  </body>
+</html>
